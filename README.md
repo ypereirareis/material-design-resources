@@ -8,14 +8,22 @@ A list of material design resources: Google, ReactJs, AngularJs, Polymer, EmberJ
 
 [http://en.wikipedia.org/wiki/Material_design](http://en.wikipedia.org/wiki/Material_design)
 
+## General
+
+* [http://www.materialup.com/](http://www.materialup.com/)
+* [http://dogfalo.github.io/materialize/](http://dogfalo.github.io/materialize/)
+* [https://fezvrasta.github.io/bootstrap-material-design/](https://fezvrasta.github.io/bootstrap-material-design/)
+* [http://ui.lumapps.com/](http://ui.lumapps.com/)
+
 ## Google
 
-* Website: [http://www.google.com/design/](http://www.google.com/design/)
-* Website: [http://www.google.com/design/spec/material-design/introduction.html](http://www.google.com/design/spec/material-design/introduction.html)
+* [http://www.google.com/design/](http://www.google.com/design/)
+* [http://www.google.com/design/spec/material-design/introduction.html](http://www.google.com/design/spec/material-design/introduction.html)
 
 ## Android
 
-* Website: [https://developer.android.com/design/index.html](https://developer.android.com/design/index.html)
+* [https://developer.android.com/design/index.html](https://developer.android.com/design/index.html)
+* [http://android-developers.blogspot.fr/2014/10/material-design-on-android-checklist.html](http://android-developers.blogspot.fr/2014/10/material-design-on-android-checklist.html)
 
 ## ReactJs
 
