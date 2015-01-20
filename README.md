@@ -4,7 +4,7 @@ A list of material design resources: Google, ReactJs, AngularJs, Polymer, EmberJ
 
 **Just send me a PR to add your own resources or resources from the web in this list**
 
-## What is it ?
+## What is it?
 
 [http://en.wikipedia.org/wiki/Material_design](http://en.wikipedia.org/wiki/Material_design)
 
