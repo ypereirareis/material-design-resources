@@ -1,0 +1,37 @@
+@font-face {
+    font-family: 'FontAwesome';
+    src: url('../font/fontawesome/fontawesome-webfont.eot?v=4.2.0');
+    src: url('../font/fontawesome/fontawesome-webfont.eot?#iefix&v=4.2.0') format('embedded-opentype'), url('../font/fontawesome/fontawesome-webfont.woff?v=4.2.0') format('woff'), url('../font/fontawesome/fontawesome-webfont.ttf?v=4.2.0') format('truetype'), url('../font/fontawesome/fontawesome-webfont.svg?v=4.2.0#fontawesomeregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+blockquote cite {
+    display: block;
+}
+
+main a[target=_blank]:before {
+    font-family: "Material-Design-Icons";
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    margin-right: 5px;
+    content: "\e63f";
+}
+
+main a[href*="github.com"]:before {
+    font-family: "Material-Design-Icons", "FontAwesome";
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    margin-right: 5px;
+    content: "\f113";
+}
