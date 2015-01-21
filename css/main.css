@@ -35,3 +35,16 @@ main a[href*="github.com"]:before {
     margin-right: 5px;
     content: "\f113";
 }
+
+
+ul.side-nav.full li, ul.side-nav.fixed li {
+    padding: 0;
+}
+
+ul.side-nav.full a, ul.side-nav.fixed a {
+    padding: 0 30px;
+}
+
+ul.side-nav.fixed li .active {
+    background-color: #ddd;
+}

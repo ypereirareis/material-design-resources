@@ -6,10 +6,12 @@
 </head>
 
 <body>
-
   <header>
-    <div class="container"><a href="#" data-activates="nav-mobile" class="button-collapse top-nav"><i
-      class="mdi-navigation-menu"></i></a></div>
+    <div class="container">
+      <a href="#" data-activates="nav-mobile" class="button-collapse top-nav">
+        <i class="mdi-navigation-menu"></i>
+      </a>
+    </div>
     <ul id="nav-mobile" class="side-nav fixed">
       <li class="logo"><a id="logo-container" href="https://github.com/ypereirareis" class="brand-logo">
         <img src="http://www.gravatar.com/avatar/59c0f432ad3f7700afdfb9b3ea4750ed.png" alt="ypereirareis"/>
@@ -60,7 +62,7 @@
         </blockquote>
       </div>
 
-      <div id="general" class="section">
+      <div id="general" class="section scrollspy">
         <h2 class="header">General</h2>
 
         <ul class="collection">
@@ -94,7 +96,7 @@
 
       <a class="btn-floating btn-large waves-effect waves-light right" href="#"><i class="mdi-navigation-expand-less"></i></a>
 
-      <div id="google" class="section">
+      <div id="google" class="section scrollspy">
         <h2 class="header">Google</h2>
 
         <ul class="collection">
@@ -116,7 +118,7 @@
 
       <a class="btn-floating btn-large waves-effect waves-light right" href="#"><i class="mdi-navigation-expand-less"></i></a>
 
-      <div id="android" class="section">
+      <div id="android" class="section scrollspy">
         <h2 class="header">Android</h2>
 
         <ul class="collection">
@@ -140,7 +142,7 @@
 
       <a class="btn-floating btn-large waves-effect waves-light right" href="#"><i class="mdi-navigation-expand-less"></i></a>
 
-      <div id="reactjs" class="section">
+      <div id="reactjs" class="section scrollspy">
         <h2 class="header">ReactJs</h2>
 
         <ul class="collection">
@@ -163,7 +165,7 @@
 
       <a class="btn-floating btn-large waves-effect waves-light right" href="#"><i class="mdi-navigation-expand-less"></i></a>
 
-      <div id="angularjs" class="section">
+      <div id="angularjs" class="section scrollspy">
         <h2 class="header">AngularJs</h2>
 
         <ul class="collection">
@@ -181,7 +183,7 @@
 
       <a class="btn-floating btn-large waves-effect waves-light right" href="#"><i class="mdi-navigation-expand-less"></i></a>
 
-      <div id="polymer" class="section">
+      <div id="polymer" class="section scrollspy">
         <h2 class="header">Polymer</h2>
 
         <ul class="collection">
@@ -197,7 +199,7 @@
 
       <a class="btn-floating btn-large waves-effect waves-light right" href="#"><i class="mdi-navigation-expand-less"></i></a>
 
-      <div id="emberjs" class="section">
+      <div id="emberjs" class="section scrollspy">
         <h2 class="header">EmberJs</h2>
 
         <ul class="collection">
@@ -229,10 +231,9 @@
         </div>
         <div class="col l4 offset-l2 s12">
           <h5 class="white-text">Contribute</h5>
-
-          <p class="grey-text text-lighten-4">Just send me a PR to add your own resources or resources from the web in
-            this list.</p>
-
+          <p class="grey-text text-lighten-4">
+            Just send me a PR to add your own resources or resources from the web in this list.
+          </p>
           <a class="btn waves-effect waves-light red lighten-3"
              href="https://github.com/ypereirareis/material-design-resources">Github
           </a>
@@ -243,6 +244,15 @@
 
   <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script type="text/javascript" src="js/materialize.min.js"></script>
+
+  <script type="text/javascript">
+    (function($){
+      $(document).ready(function () {
+        $(".button-collapse").sideNav();
+        $('.scrollspy').scrollSpy();
+      });
+    })(jQuery);
+  </script>
 
 </body>
 </html>
