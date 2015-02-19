@@ -48,3 +48,7 @@ ul.side-nav.full a, ul.side-nav.fixed a {
 ul.side-nav.fixed li .active {
     background-color: #ddd;
 }
+
+.page-footer .row {
+    margin-bottom: 0;
+}
