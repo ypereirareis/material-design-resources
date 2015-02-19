@@ -51,4 +51,9 @@ ul.side-nav.fixed li .active {
 
 .page-footer .row {
     margin-bottom: 0;
+    height:250px;
+}
+
+.page-footer .row .col:first-child {
+    margin-top: 30px;
 }
