@@ -10,7 +10,7 @@ blockquote cite {
     display: block;
 }
 
-main a:before {
+main a[href^=http]:before {
     font-family: "Material-Design-Icons";
     speak: none;
     font-style: normal;
